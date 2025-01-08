@@ -1,0 +1,71 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.movie-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem; 
+}
+
+.movie-form input,
+.movie-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.movie-item {
+  background-color: #f9f9f9;   
+  padding: 1rem;                
+  margin-bottom: 1rem;          
+  border-radius: 0.5rem;        
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.movie-item h3 {
+  margin-top: 0;
+}
+
+.comment {
+  color: #555; 
+  font-style: italic;
+}
+
+.buttons-container {
+  margin-top: 1rem;
+}
+
+.buttons-container button {
+  cursor: pointer;
+  font-size: 0.9rem; 
+  border: none; 
+  border-radius: 0.25rem; 
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem; 
+  transition: background-color 0.2s ease; 
+}
+
+.edit-button {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background-color: #0b7dda; 
+}
+
+.delete-button {
+  background-color: #f44336; 
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #c33c29;
+}
